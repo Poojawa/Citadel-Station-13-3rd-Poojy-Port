@@ -15,14 +15,14 @@
 	config_tag = "revolution"
 	antag_flag = BE_REV
 	restricted_jobs = list("Security Officer", "Warden", "Detective", "AI", "Cyborg","Captain", "Head of Personnel", "Head of Security", "Chief Engineer", "Research Director", "Chief Medical Officer")
-	required_players = 20
-	required_enemies = 1
-	recommended_enemies = 3
+	required_players = 15
+	required_enemies = 2
+	recommended_enemies = 2
 	enemy_minimum_age = 14
 
 	var/finished = 0
 	var/check_counter = 0
-	var/max_headrevs = 3
+	var/max_headrevs = 2
 	var/list/datum/mind/heads_to_kill = list()
 
 ///////////////////////////

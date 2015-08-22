@@ -332,6 +332,28 @@
 	armor = list(melee = 10, bullet = 5, laser = 10, energy = 5, bomb = 10, bio = 100, rad = 50)
 	helmettype = /obj/item/clothing/head/helmet/space/hardsuit/medical
 
+		//Research director hardsuit
+/obj/item/clothing/head/helmet/space/hardsuit/rd
+	name = "research director hardsuit helmet"
+	desc = "A special helmet designed for work in a hazardous, low pressure environment. Lazily re-painted and stuffed with extra insulation."
+	icon_state = "hardsuit0-rd"
+	item_state = "rd_helm"
+	item_color = "rd"
+	flash_protect = 0
+	flags_inv = HIDEMASK|HIDEEARS|HIDEEYES
+	armor = list(melee = 10, bullet = 5, laser = 10, energy = 5, bomb = 50, bio = 100, rad = 70)
+
+
+/obj/item/clothing/suit/space/hardsuit/rd
+	icon_state = "hardsuit-rd"
+	name = "research director hardsuit"
+	desc = "A special suit that protects against hazardous, low pressure environments. Lazily re-painted and stuffed with extra insulation."
+	item_state = "rd_hardsuit"
+	slowdown = 1.5
+	allowed = list(/obj/item/device/flashlight,/obj/item/weapon/tank/internals,/obj/item/weapon/storage/firstaid,/obj/item/device/healthanalyzer,/obj/item/stack/medical)
+	armor = list(melee = 10, bullet = 5, laser = 10, energy = 5, bomb = 50, bio = 100, rad = 70)
+	helmettype = /obj/item/clothing/head/helmet/space/hardsuit/rd
+
 
 	//Security hardsuit
 /obj/item/clothing/head/helmet/space/hardsuit/security

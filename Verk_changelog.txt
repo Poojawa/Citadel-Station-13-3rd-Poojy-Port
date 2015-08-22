@@ -1,13 +1,10 @@
-- Restored squirrel female secondary and leporid female primary color layers from existing matches.
-- Tweaked husky female sprite.
-- Included Fairedan's raccoon.
-- Added a body part sprite for augmented crotch/butt. (Couldn't figure out how to put it in good use tho.)
-- Slightly toned down the "Janitor hawk" and gave the female some tweaks.
-- Shark titties.
-- Added feathery wings.
-- Robot butt and botbuttbot.
-- Add robobutt to the mech fabricator.
-- Recreated the missing female wolf base.
-- Recreated the missing male hippo base.
-- Added cow race.
-- Added human cow tail/ears/horns
+- Tweaked husky sprites to fix earlier bloopers.
+- Tweaked cow sprites to fix earlier bloopers.
+- Added 2 color layers for husky.
+- Added 3 color layers for hawk.
+- Added 3 color layers for GSD.
+- Added color layers for GSD taur.
+- Added husky taur form with color layers.
+- Added cow taur form with color layers.
+- Updated raccoons.
+- Added loaderbot sprite and transform animation. (no code yet)

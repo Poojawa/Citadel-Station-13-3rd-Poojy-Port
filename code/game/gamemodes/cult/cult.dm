@@ -46,9 +46,9 @@
 	antag_flag = BE_CULTIST
 	restricted_jobs = list("Chaplain","AI", "Cyborg", "Security Officer", "Warden", "Detective", "Head of Security", "Captain", "Head of Personnel")
 	protected_jobs = list()
-	required_players = 20
-	required_enemies = 6
-	recommended_enemies = 6
+	required_players = 15
+	required_enemies = 3
+	recommended_enemies = 4
 	enemy_minimum_age = 14
 
 
@@ -59,7 +59,7 @@
 
 	var/eldergod = 1 //for the summon god objective
 
-	var/acolytes_needed = 10 //for the survive objective
+	var/acolytes_needed = 8//for the survive objective
 	var/acolytes_survived = 0
 
 

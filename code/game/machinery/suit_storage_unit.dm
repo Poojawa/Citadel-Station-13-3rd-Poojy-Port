@@ -79,6 +79,11 @@
 	SUIT_TYPE = /obj/item/clothing/suit/space/hardsuit/medical
 	MASK_TYPE = /obj/item/clothing/mask/breath
 
+/obj/machinery/suit_storage_unit/rd
+	SUIT_TYPE = /obj/item/clothing/suit/space/hardsuit/rd
+	MASK_TYPE = /obj/item/clothing/mask/breath
+	STORAGE_TYPE = /obj/item/weapon/tank/internals/oxygen/red
+
 /obj/machinery/suit_storage_unit/syndicate
 	SUIT_TYPE = /obj/item/clothing/suit/space/hardsuit/syndi
 	MASK_TYPE = /obj/item/clothing/mask/gas/syndicate

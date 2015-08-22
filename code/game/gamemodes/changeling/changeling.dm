@@ -12,7 +12,7 @@ var/list/possible_changeling_IDs = list("Alpha","Beta","Gamma","Delta","Epsilon"
 	protected_jobs = list("Security Officer", "Warden", "Detective", "Head of Security", "Captain")
 	required_players = 15
 	required_enemies = 1
-	recommended_enemies = 4
+	recommended_enemies = 3
 	reroll_friendly = 1
 
 

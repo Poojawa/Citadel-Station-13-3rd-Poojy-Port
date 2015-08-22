@@ -53,6 +53,7 @@ datum
 			generic="canine"
 			adjective="derpy"
 			tail=1
+			taur=1
 		dalmatian
 			name="dalmatian"
 			id="dalmatian"
@@ -127,6 +128,8 @@ datum
 			say_mod = "moos"
 			generic="cow"
 			adjective="wise"
+			tail=1
+			taur=1
 		hippo
 			name="hippo"
 			id="hippo"
